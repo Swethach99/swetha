@@ -1,0 +1,27 @@
+function printPrime()
+ {
+ var i = 0;
+ var j = 0;
+ let n =prompt("Enter a number");
+ var arr =[];
+ for(k= 0;k<n;k++)
+ {
+ arr.push(prompt("enter a element"));
+ }
+ for (i =arr[0]; i <= n; i++)
+ {
+  var c = 0; 
+for (j = 1; j <= i; j++)
+ {
+ if (i % j == 0)
+ { 
+c++;
+ }
+ }
+ if (c == 2)
+ {
+ console.log(i);
+ }
+ }
+ }
+ printPrime();
