@@ -1,0 +1,8 @@
+function count()
+{
+var a= prompt("enter the string");
+var b=/[aeiou]/gi
+var c=a.match(b);
+console.log(c.length)
+}
+count();
