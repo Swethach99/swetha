@@ -1,0 +1,6 @@
+function replace()
+{
+let strng = prompt("enter a string");
+console.log(strng.replace(/o/gi,'c'));
+}
+replace();
