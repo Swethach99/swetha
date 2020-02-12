@@ -1,0 +1,9 @@
+function replace(str,ori_str,rep_str)
+{
+reg=new RegExp(ori_str,"ig");
+console.log(str.replace(reg,rep_str));
+}
+var str=prompt("Enter your string: ");
+var o_str=prompt("Enter original string: ");
+var rep_str=prompt("Enter Replaced string: ");
+replace(str,o_str,rep_str);
