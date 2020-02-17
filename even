@@ -1,0 +1,7 @@
+a=[1,2,3,4,5,6,7,8]
+function even(value)
+{
+return value%2==0
+}
+let fill=a.filter(even);
+console.log(fill);
